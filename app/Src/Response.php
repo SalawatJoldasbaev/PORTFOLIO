@@ -24,7 +24,7 @@ class Response
         ], $code);
     }
 
-    public static function success($message = 'success', $code = 400, $payload = [])
+    public static function success($message = 'success', $code = 200, $payload = [])
     {
         return response([
             'status' => true,
